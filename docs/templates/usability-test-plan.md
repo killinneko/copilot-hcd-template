@@ -1,69 +1,68 @@
-# Usability test plan
+# ユーザビリティテスト計画
 
-## Objectives
+## 目的
 
-- Product/prototype:
-- Research questions:
-- Decisions supported:
+- 製品・プロトタイプ:
+- 調査課題:
+- 支援する意思決定:
 
-## Participants
+## 参加者
 
-- Target users:
-- Criteria:
-- Number and rationale:
-- Recruitment:
+- 対象ユーザー:
+- 参加条件:
+- 人数と理由:
+- 募集方法:
 
-## Environment and roles
+## 環境と役割
 
-- Location/device:
-- Moderator:
-- Observer:
-- Note taker:
-- Recording:
+- 場所・端末:
+- 進行担当:
+- 観察担当:
+- 記録担当:
+- 録画・録音:
 
-## Tasks
+## タスク
 
-| ID | Neutral scenario/task | Success criteria | Measures | Follow-up probes |
+| 識別子 | 中立的なシナリオ・タスク | 成功条件 | 測定項目 | 追加質問 |
 | --- | --- | --- | --- | --- |
-| T01 |  |  |  |  |
+| タスク-01 |  |  |  |  |
 
-## Measures
+## 測定項目
 
-- Completion:
-- Errors:
-- Time:
-- Assistance:
-- Confidence/satisfaction:
-- Qualitative observations:
+- 完了:
+- エラー:
+- 所要時間:
+- 支援:
+- 確信度・満足度:
+- 定性的な観察:
 
-## Moderator guide
+## 進行手順
 
-1. Welcome and consent
-2. Explain think-aloud without demonstrating the solution
-3. Warm-up
-4. Tasks and neutral probes
-5. Debrief
+1. 挨拶と同意
+2. 解決方法を実演せずに、思考発話法を説明
+3. 練習
+4. タスクと中立的な追加質問
+5. 振り返り
 
-## Ethics and data handling
+## 倫理とデータ管理
 
-- Consent:
-- Personal data:
-- Storage/access:
-- Retention/deletion:
-- Participant safety:
+- 同意:
+- 個人情報:
+- 保存・アクセス:
+- 保持期間・削除:
+- 参加者の安全:
 
-## Analysis and reporting
+## 分析と報告
 
-- Severity method:
-- Evidence threshold:
-- Segment comparison:
-- Report format:
+- 重要度の判定方法:
+- 証拠として採用する基準:
+- 区分間の比較:
+- 報告形式:
 
-## Pilot checklist
+## 試行テストの確認表
 
-- [ ] Tasks do not reveal labels or intended actions
-- [ ] Prototype supports the complete task path
-- [ ] Timing and recording have been tested
-- [ ] Consent and withdrawal procedure are clear
-- [ ] Observer roles and note format are agreed
-
+- [ ] タスクがラベルや想定操作を明かしていない
+- [ ] プロトタイプがタスクの全経路に対応している
+- [ ] 時間計測と記録方法をテストした
+- [ ] 同意と参加中止の手順が明確である
+- [ ] 観察担当の役割と記録形式について合意した

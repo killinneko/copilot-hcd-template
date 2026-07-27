@@ -1,9 +1,8 @@
 ---
 name: usability-review
-description: Conduct a structured expert usability review of an interface or implementation.
-agent: UX Design
-argument-hint: "screen, flow, code, or prototype and its target users/tasks"
+description: インターフェースまたは実装に対し、構造化された専門家ユーザビリティレビューを行います。
+agent: UX設計
+argument-hint: "画面、フロー、コード、プロトタイプと対象ユーザー・タスク"
 ---
 
-Review the interface against the specified user's primary tasks. Evaluate visibility of status, match to user language, control, consistency, error prevention and recovery, recognition, efficiency, help, and cognitive load. Report issues by severity with evidence, impact, recommendation, and suggested validation. Do not present an expert review as user research.
-
+指定されたユーザーの主要タスクに照らしてインターフェースをレビューしてください。状態の可視性、ユーザーの言葉との一致、操作の主導権、一貫性、エラーの予防と復旧、再認、効率、ヘルプ、認知負荷を評価します。問題を重要度順に整理し、根拠、影響、推奨事項、確認方法を報告してください。専門家レビューをユーザー調査の結果として提示しないでください。

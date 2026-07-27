@@ -1,9 +1,8 @@
 ---
 name: research-plan
-description: Create an ethical, decision-oriented UX research plan.
-agent: HCD Research
-argument-hint: "decision to support, target users, timeline, and constraints"
+description: 倫理に配慮し、意思決定を目的とするUXリサーチ計画を作成します。
+agent: HCDリサーチ
+argument-hint: "支援する意思決定、対象ユーザー、期間、制約"
 ---
 
-Create a research plan using `docs/templates/research-plan.md`. Include research questions, method rationale, participant criteria, sampling limitations, recruitment, procedure, consent, privacy, data handling, analysis, timeline, roles, risks, and decision criteria. Distinguish hypotheses from established facts.
-
+`docs/templates/research-plan.md`を使用して調査計画を作成してください。調査課題、方法の選定理由、参加条件、標本抽出の限界、募集、手順、同意、プライバシー、データ管理、分析、日程、役割、リスク、判断基準を含めます。仮説と確認済みの事実を区別してください。

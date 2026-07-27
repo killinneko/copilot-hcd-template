@@ -1,9 +1,8 @@
 ---
 name: analyze-data
-description: Inspect a dataset and propose a reproducible analysis plan.
-agent: Data Visualization
-argument-hint: "dataset path and the question or decision to support"
+description: データセットを調査し、再現可能な分析計画を提案します。
+agent: データ可視化
+argument-hint: "データセットのパスと、支援する問いまたは意思決定"
 ---
 
-Inspect the available data and clarify the analytical question. Report schema, grain, types, missingness, duplicates, ranges, outliers, time coverage, sensitive fields, and quality risks. Propose reproducible transformations, metrics, validation checks, and candidate visualizations. Do not claim findings that were not computed.
-
+利用可能なデータを調査し、分析上の問いを明確にしてください。スキーマ、粒度、型、欠損、重複、範囲、外れ値、対象期間、機微情報を含む項目、品質上のリスクを報告します。再現可能な変換処理、指標、検証、可視化候補を提案してください。計算していない結果を事実として提示しないでください。

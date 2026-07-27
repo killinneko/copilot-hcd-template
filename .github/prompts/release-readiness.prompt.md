@@ -1,9 +1,8 @@
 ---
 name: release-readiness
-description: Assess whether a change is ready to release using evidence and explicit risks.
-agent: Test Quality
-argument-hint: "release scope, requirements, target environment, and deadline"
+description: 証拠と明示的なリスクに基づき、変更をリリースできる状態か評価します。
+agent: テスト品質
+argument-hint: "リリース範囲、要求、対象環境、期限"
 ---
 
-Build a release-readiness checklist from requirements and risk. Verify tests, build, lint, types, migrations, configuration, secrets, observability, rollback, documentation, usability, accessibility, privacy, and known issues as applicable. Return a clear ready / conditionally ready / not ready assessment with evidence, blockers, owners, and unverified items.
-
+要求とリスクからリリース準備確認表を作成してください。必要に応じて、テスト、ビルド、静的解析、型、移行、設定、秘密情報、監視、切り戻し、文書、ユーザビリティ、アクセシビリティ、プライバシー、既知の問題を確認します。根拠、妨げとなる問題、担当者、未確認事項を添え、「準備完了」「条件付きで準備完了」「準備未完了」のいずれかで明確に判定してください。

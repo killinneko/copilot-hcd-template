@@ -1,9 +1,8 @@
 ---
 name: define-requirements
-description: Convert evidence and design intent into prioritized, testable requirements.
-agent: UX Design
-argument-hint: "research findings, business goals, constraints, and target release"
+description: 証拠と設計意図を、優先順位と検証可能性を備えた要求へ変換します。
+agent: UX設計
+argument-hint: "調査結果、事業目標、制約、対象リリース"
 ---
 
-Use `docs/templates/requirements.md`. Write user, functional, data, content, accessibility, performance, privacy, and operational requirements as needed. Give each requirement an ID, rationale, evidence source, priority, acceptance criteria, owner, and status. Flag conflicts and assumptions.
-
+`docs/templates/requirements.md`を使用してください。必要に応じて、ユーザー、機能、データ、コンテンツ、アクセシビリティ、性能、プライバシー、運用に関する要求を記載します。各要求に識別子、理由、証拠、優先度、受け入れ条件、担当者、状態を付けてください。要求間の競合と仮定を明示してください。

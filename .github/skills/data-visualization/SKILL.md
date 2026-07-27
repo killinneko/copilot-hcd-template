@@ -1,25 +1,24 @@
 ---
 name: data-visualization
-description: Use when analyzing a dataset, choosing a chart, specifying a dashboard, or implementing an accessible Streamlit visualization.
+description: データセットの分析、グラフの選択、ダッシュボードの仕様策定、アクセシブルなStreamlit可視化の実装に使用します。
 ---
 
-# Data visualization
+# データ可視化
 
-## Procedure
+## 手順
 
-1. Write the user question and the decision the visualization supports.
-2. Inspect schema, grain, types, ranges, missingness, duplicates, outliers, and time coverage.
-3. Define measures, dimensions, filters, aggregation, and uncertainty.
-4. Choose the visual encoding:
-   - comparison: bar or dot plot
-   - trend: line chart
-   - distribution: histogram, box, violin, or ECDF
-   - relationship: scatter plot
-   - part-to-whole: stacked bar when categories are limited
-   - geography: map only when location is analytically meaningful
-5. Add titles, units, sources, definitions, and annotations.
-6. Check truthful scales, accessible colors, non-color cues, keyboard use, and text alternatives.
-7. Validate the chart against known values and the original question.
+1. ユーザーの問いと、可視化が支援する意思決定を記載する。
+2. スキーマ、粒度、型、範囲、欠損、重複、外れ値、対象期間を確認する。
+3. 指標、次元、絞り込み、集計、不確実性を定義する。
+4. 視覚表現を選ぶ。
+   - 比較：棒グラフまたはドットプロット
+   - 傾向：折れ線グラフ
+   - 分布：ヒストグラム、箱ひげ図、バイオリンプロット、経験累積分布
+   - 関係：散布図
+   - 全体に対する構成：カテゴリが少ない場合は積み上げ棒グラフ
+   - 地理：場所に分析上の意味がある場合に限り地図
+5. タイトル、単位、出典、定義、注釈を追加する。
+6. 正確な尺度、アクセシブルな色、色以外の手掛かり、キーボード操作、文章による代替手段を確認する。
+7. 既知の値と元の問いに照らしてグラフを検証する。
 
-Record the result in `docs/templates/visualization-spec.md`.
-
+結果を`docs/templates/visualization-spec.md`へ記録してください。

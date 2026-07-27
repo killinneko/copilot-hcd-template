@@ -1,9 +1,8 @@
 ---
 name: map-user-journey
-description: Map the current or future user journey with evidence and opportunities.
-agent: UX Design
-argument-hint: "persona or user group, scenario, start/end, and evidence"
+description: 証拠と改善機会を含む、現状または将来のユーザージャーニーを作成します。
+agent: UX設計
+argument-hint: "ペルソナまたはユーザー群、シナリオ、開始・終了、証拠"
 ---
 
-Create a journey using `docs/templates/user-journey.md`. Include stages, user goals, actions, touchpoints, thoughts, emotions, pain points, evidence, and opportunities. Clearly label current-state versus future-state content and distinguish observed behavior from assumptions.
-
+`docs/templates/user-journey.md`を使用してジャーニーを作成してください。段階、ユーザー目標、行動、接点、考え、感情、課題、証拠、改善機会を含めます。現状と将来像を明確に区別し、観察された行動と仮定を分けてください。

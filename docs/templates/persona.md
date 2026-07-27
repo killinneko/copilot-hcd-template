@@ -1,48 +1,48 @@
-# Persona
+# ペルソナ
 
-> Status: Provisional / Evidence-backed  
-> Last updated: YYYY-MM-DD
+> 状態: 暫定 / 証拠に基づく
+>
+> 最終更新日: YYYY-MM-DD
 
-## Identity
+## 基本情報
 
-- Descriptive name:
-- Behavioral segment:
-- Confidence:
+- 特徴を表す名前:
+- 行動区分:
+- 確信度:
 
-## Evidence base
+## 証拠
 
-| Persona attribute | Evidence/source | Confidence | Contradictory evidence |
+| ペルソナの特徴 | 証拠・出典 | 確信度 | 矛盾する証拠 |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-## Goals and desired outcomes
+## 目標と望ましい成果
 
 - 
 
-## Behaviors and current solutions
+## 行動と現在の解決方法
 
 - 
 
-## Context of use
+## 利用状況
 
-- Environment:
-- Frequency:
-- Devices/tools:
-- Social/organizational context:
+- 環境:
+- 頻度:
+- 端末・道具:
+- 社会的・組織的状況:
 
-## Needs and barriers
+## ニーズと障壁
 
-| Need/barrier | Evidence | Design implication |
+| ニーズ・障壁 | 証拠 | 設計への示唆 |
 | --- | --- | --- |
 |  |  |  |
 
-## Representative scenario
+## 代表的なシナリオ
 
-[Describe a realistic task and context without inventing a quote.]
+[発言を創作せず、現実的なタスクと利用状況を記載します。]
 
-## Non-goals and cautions
+## 対象外と注意事項
 
-- This persona does not represent:
-- Stereotypes to avoid:
-- Validation still needed:
-
+- このペルソナが代表しない範囲:
+- 避けるべき固定観念:
+- 今後必要な検証:

@@ -1,9 +1,8 @@
 ---
 name: analyze-survey
-description: Analyze survey responses with transparent cleaning, limitations, and evidence.
-agent: Data Visualization
-argument-hint: "response data path, questionnaire, research questions, and segments"
+description: データ整理、限界、証拠を明示してアンケート回答を分析します。
+agent: データ可視化
+argument-hint: "回答データのパス、調査票、調査課題、区分"
 ---
 
-Inspect the questionnaire and response data. Document exclusions, missing-data handling, recoding, denominator choices, and sample limitations. Compute appropriate descriptive results and segments without overstating causality or representativeness. Separate findings from interpretations and produce traceable evidence for later persona or requirement work.
-
+調査票と回答データを確認してください。除外、欠損データの扱い、再符号化、分母の選択、標本の限界を文書化します。因果関係や代表性を誇張せず、適切な記述統計と区分別の結果を計算してください。結果と解釈を分離し、後続のペルソナや要求定義まで追跡できる証拠を作成してください。

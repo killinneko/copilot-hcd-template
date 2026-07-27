@@ -1,35 +1,35 @@
 # GitHub Copilotカスタマイズガイド
 
-この文書は、収録するAgent、Skill、Promptの選び方と個別仕様をまとめたリファレンスです。
+この文書は、収録するエージェント、スキル、プロンプトの選び方と個別仕様をまとめたリファレンスです。
 
 ## 1. 仕組みの違い
 
 | 種別 | 役割 | 適用方法 | 保存場所 |
 | --- | --- | --- | --- |
-| Repository Instructions | リポジトリ全体の常時ルール | 自動 | `.github/copilot-instructions.md` |
-| Path-specific Instructions | 特定ファイルの常時ルール | `applyTo`に一致すると自動 | `.github/instructions/` |
-| Agent | 誰が、どの権限で担当するか | 選択またはPromptから指定 | `.github/agents/` |
-| Prompt | 何の作業をどう実行するか | `/prompt-name`で明示実行 | `.github/prompts/` |
-| Skill | 複数作業で再利用する専門手順 | タスクに応じて自動または明示 | `.github/skills/` |
-| AGENTS.md | 複数AI Agentで共有する作業規範 | 対応Agentが自動参照 | `AGENTS.md` |
+| リポジトリ共通指示 | リポジトリ全体の常時ルール | 自動 | `.github/copilot-instructions.md` |
+| パス別指示 | 特定ファイルの常時ルール | `applyTo`に一致すると自動 | `.github/instructions/` |
+| エージェント | 誰が、どの権限で担当するか | 選択またはプロンプトから指定 | `.github/agents/` |
+| プロンプト | 何の作業をどう実行するか | `/プロンプト名`で明示実行 | `.github/prompts/` |
+| スキル | 複数作業で再利用する専門手順 | タスクに応じて自動または明示 | `.github/skills/` |
+| `AGENTS.md` | 複数のAIエージェントで共有する作業規範 | 対応エージェントが自動参照 | `AGENTS.md` |
 
-基本的には、常時守る内容をInstructionsへ、担当者と権限をAgentへ、反復する依頼をPromptへ、複数の担当や依頼で共有する専門手順をSkillへ置きます。
+基本的には、常時守る内容を指示ファイルへ、担当者と権限をエージェントへ、反復する依頼をプロンプトへ、複数の担当や依頼で共有する専門手順をスキルへ置きます。
 
-## 2. Agent一覧
+## 2. エージェント一覧
 
-| Agent | 主な用途 | 編集 | コマンド |
+| エージェント | 主な用途 | 編集 | コマンド |
 | --- | --- | --- | --- |
-| Implementation | 機能実装、修正、リファクタリング | 可 | 可 |
-| Code Review | コードレビュー | 不可 | 不可 |
-| HCD Research | 調査計画、アンケート、ペルソナ | 可 | 不可 |
-| UX Design | 要求、情報設計、UI、ユーザビリティ | 可 | 不可 |
-| Data Visualization | 分析、可視化、Streamlit | 可 | 可 |
-| Accessibility | WCAG観点のレビュー | 不可 | 不可 |
-| Test Quality | テスト設計・実装、リリース判定 | 可 | 可 |
+| 実装 | 機能実装、修正、リファクタリング | 可 | 可 |
+| コードレビュー | コードレビュー | 不可 | 不可 |
+| HCDリサーチ | 調査計画、アンケート、ペルソナ | 可 | 不可 |
+| UX設計 | 要求、情報設計、UI、ユーザビリティ | 可 | 不可 |
+| データ可視化 | 分析、可視化、Streamlit | 可 | 可 |
+| アクセシビリティ | WCAG観点のレビュー | 不可 | 不可 |
+| テスト品質 | テスト設計・実装、リリース判定 | 可 | 可 |
 
-## 3. Agent詳細
+## 3. エージェント詳細
 
-### 3.1 Implementation
+### 3.1 実装
 
 定義: [implementation.agent.md](../../.github/agents/implementation.agent.md)
 
@@ -38,9 +38,9 @@
 - 実行内容: 関連コードの調査、最小変更、テスト、文書更新、検証
 - 成果物: 実装コード、テスト、更新文書、検証結果
 - 注意点: 大規模整理は自動的に行わず、依頼達成に必要な範囲へ限定する
-- 主なPrompt: `/implement-change`、`/debug-issue`、`/refactor-code`
+- 主なプロンプト: `/implement-change`、`/debug-issue`、`/refactor-code`
 
-### 3.2 Code Review
+### 3.2 コードレビュー
 
 定義: [code-review.agent.md](../../.github/agents/code-review.agent.md)
 
@@ -49,9 +49,9 @@
 - 実行内容: 正確性、セキュリティ、保守性、テスト、文書の読み取りレビュー
 - 成果物: 重要度、証拠、影響、修正案を含む指摘
 - 注意点: 読み取り専用。レビュー中にファイルを変更しない
-- 主なPrompt: `/review-code`
+- 主なプロンプト: `/review-code`
 
-### 3.3 HCD Research
+### 3.3 HCDリサーチ
 
 定義: [hcd-research.agent.md](../../.github/agents/hcd-research.agent.md)
 
@@ -60,9 +60,9 @@
 - 実行内容: 調査設計、倫理・個人情報確認、証拠の統合、要求への接続
 - 成果物: 調査計画、アンケート、ペルソナ、JTBD
 - 注意点: 回答、引用、参加者、結果を創作しない。仮説は明示する
-- 主なPrompt: `/research-plan`、`/design-survey`、`/create-persona`
+- 主なプロンプト: `/research-plan`、`/design-survey`、`/create-persona`
 
-### 3.4 UX Design
+### 3.4 UX設計
 
 定義: [ux-design.agent.md](../../.github/agents/ux-design.agent.md)
 
@@ -71,9 +71,9 @@
 - 実行内容: ジャーニー、要求、情報設計、プロトタイプ、専門家レビュー
 - 成果物: フロー、サイトマップ、画面仕様、評価指摘
 - 注意点: 見た目よりもタスク達成と状態設計を優先する
-- 主なPrompt: `/define-requirements`、`/prototype-ui`、`/usability-review`
+- 主なプロンプト: `/define-requirements`、`/prototype-ui`、`/usability-review`
 
-### 3.5 Data Visualization
+### 3.5 データ可視化
 
 定義: [data-visualization.agent.md](../../.github/agents/data-visualization.agent.md)
 
@@ -82,9 +82,9 @@
 - 実行内容: 品質確認、集計定義、可視化比較、実装、値の検証
 - 成果物: 分析計画、可視化仕様、Streamlitアプリ
 - 注意点: 見栄えからグラフを選ばず、欠損・集計・不確実性を明記する
-- 主なPrompt: `/analyze-data`、`/design-visualization`、`/prototype-streamlit`
+- 主なプロンプト: `/analyze-data`、`/design-visualization`、`/prototype-streamlit`
 
-### 3.6 Accessibility
+### 3.6 アクセシビリティ
 
 定義: [accessibility.agent.md](../../.github/agents/accessibility.agent.md)
 
@@ -93,9 +93,9 @@
 - 実行内容: セマンティクス、キーボード、フォーカス、名前、エラー、視認性のレビュー
 - 成果物: 重要度、影響、WCAG基準、修正案、確認方法を含む指摘
 - 注意点: 読み取り専用。自動検査やコード確認だけで準拠を断定しない
-- 主なPrompt: `/accessibility-review`
+- 主なプロンプト: `/accessibility-review`
 
-### 3.7 Test Quality
+### 3.7 テスト品質
 
 定義: [test-quality.agent.md](../../.github/agents/test-quality.agent.md)
 
@@ -104,17 +104,17 @@
 - 実行内容: リスクベースのテスト設計、実装、実行、未検証範囲の整理
 - 成果物: テストコード、テストマトリクス、リリース判定
 - 注意点: 実装詳細ではなく外部から観察できる動作を優先する
-- 主なPrompt: `/write-tests`、`/release-readiness`
+- 主なプロンプト: `/write-tests`、`/release-readiness`
 
-## 4. Skill一覧
+## 4. スキル一覧
 
-| Skill | 専門領域 | 主な利用場面 |
+| スキル | 専門領域 | 主な利用場面 |
 | --- | --- | --- |
 | hcd-workflow | HCDの計画から評価まで | 調査、要求、設計、評価 |
 | data-visualization | データ品質と可視化選定 | 分析、ダッシュボード、Streamlit |
 | accessible-ui | アクセシブルなUI | 設計、実装、レビュー |
 
-## 5. Skill詳細
+## 5. スキル詳細
 
 ### 5.1 hcd-workflow
 
@@ -125,7 +125,7 @@
 利用例:
 
 ```text
-Use the /hcd-workflow skill to plan research for this dashboard.
+/hcd-workflowスキルを使用して、このダッシュボードの調査を計画してください。
 ```
 
 ### 5.2 data-visualization
@@ -140,37 +140,37 @@ Use the /hcd-workflow skill to plan research for this dashboard.
 
 セマンティックHTML、キーボード操作、フォーカス、ラベル、状態通知、エラー、リフロー、コントラスト、動き、ターゲットサイズを一連の手順で確認します。自動テストだけに依存せず、手動確認項目を残します。
 
-## 6. Prompt一覧
+## 6. プロンプト一覧
 
-| 工程 | Prompt | 担当Agent | 主な成果物 |
+| 工程 | プロンプト | 担当エージェント | 主な成果物 |
 | --- | --- | --- | --- |
-| 導入 | `/setup-copilot-context` | Implementation | project-context |
-| 実装 | `/implement-change` | Implementation | コード、テスト、文書 |
-| 品質 | `/write-tests` | Test Quality | テスト |
-| 品質 | `/review-code` | Code Review | レビュー指摘 |
-| 分析 | `/analyze-data` | Data Visualization | 分析計画・品質報告 |
-| 試作 | `/prototype-streamlit` | Data Visualization | Streamlitアプリ |
-| 可視化 | `/design-visualization` | Data Visualization | 可視化仕様 |
-| 発見 | `/hcd-discovery` | HCD Research | Discovery brief |
-| 調査 | `/research-plan` | HCD Research | 調査計画 |
-| 調査 | `/design-survey` | HCD Research | 調査票 |
-| 調査 | `/analyze-survey` | Data Visualization | 分析結果 |
-| 統合 | `/create-persona` | HCD Research | ペルソナ |
-| 統合 | `/define-jtbd` | HCD Research | JTBD |
-| 統合 | `/map-user-journey` | UX Design | ジャーニー |
-| 要求 | `/define-requirements` | UX Design | 要求一覧 |
-| 設計 | `/design-information-architecture` | UX Design | IA・サイトマップ |
-| 設計 | `/prototype-ui` | UX Design | UIプロトタイプ |
-| 評価 | `/usability-test-plan` | HCD Research | テスト計画 |
-| 評価 | `/usability-review` | UX Design | UX指摘 |
-| 評価 | `/accessibility-review` | Accessibility | A11y指摘 |
-| 改善 | `/implement-accessibility-fixes` | Implementation | 修正・テスト |
-| 保守 | `/refactor-code` | Implementation | リファクタリング |
-| 障害 | `/debug-issue` | Implementation | 原因・修正・回帰テスト |
-| 文書 | `/document-feature` | Implementation | 利用文書 |
-| リリース | `/release-readiness` | Test Quality | リリース判定 |
+| 導入 | `/setup-copilot-context` | 実装 | プロジェクト情報 |
+| 実装 | `/implement-change` | 実装 | コード、テスト、文書 |
+| 品質 | `/write-tests` | テスト品質 | テスト |
+| 品質 | `/review-code` | コードレビュー | レビュー指摘 |
+| 分析 | `/analyze-data` | データ可視化 | 分析計画・品質報告 |
+| 試作 | `/prototype-streamlit` | データ可視化 | Streamlitアプリ |
+| 可視化 | `/design-visualization` | データ可視化 | 可視化仕様 |
+| 発見 | `/hcd-discovery` | HCDリサーチ | 発見事項の概要 |
+| 調査 | `/research-plan` | HCDリサーチ | 調査計画 |
+| 調査 | `/design-survey` | HCDリサーチ | 調査票 |
+| 調査 | `/analyze-survey` | データ可視化 | 分析結果 |
+| 統合 | `/create-persona` | HCDリサーチ | ペルソナ |
+| 統合 | `/define-jtbd` | HCDリサーチ | JTBD |
+| 統合 | `/map-user-journey` | UX設計 | ジャーニー |
+| 要求 | `/define-requirements` | UX設計 | 要求一覧 |
+| 設計 | `/design-information-architecture` | UX設計 | 情報構造・サイトマップ |
+| 設計 | `/prototype-ui` | UX設計 | UIプロトタイプ |
+| 評価 | `/usability-test-plan` | HCDリサーチ | テスト計画 |
+| 評価 | `/usability-review` | UX設計 | UX指摘 |
+| 評価 | `/accessibility-review` | アクセシビリティ | アクセシビリティ指摘 |
+| 改善 | `/implement-accessibility-fixes` | 実装 | 修正・テスト |
+| 保守 | `/refactor-code` | 実装 | リファクタリング |
+| 障害 | `/debug-issue` | 実装 | 原因・修正・回帰テスト |
+| 文書 | `/document-feature` | 実装 | 利用文書 |
+| リリース | `/release-readiness` | テスト品質 | リリース判定 |
 
-## 7. Prompt詳細
+## 7. プロンプト詳細
 
 ### 導入・実装・品質
 
@@ -180,7 +180,7 @@ Use the /hcd-workflow skill to plan research for this dashboard.
 - 入力: 目的、既知の制約、分かっているコマンド
 - 処理: リポジトリを調べ、確認できる事実だけをプロジェクト文脈へ記録
 - 成果物: `docs/templates/project-context.md`
-- 次: 目的に応じた各Prompt
+- 次: 目的に応じた各プロンプト
 
 #### `/implement-change`
 
@@ -239,7 +239,7 @@ Use the /hcd-workflow skill to plan research for this dashboard.
 - 使用時期: 設計前に問題空間を整理するとき
 - 入力: アイデア、対象者、既知の証拠、制約
 - 処理: ユーザー、目標、状況、仮定、リスク、未知事項の整理
-- 成果物: Discovery briefと次の調査提案
+- 成果物: 発見事項の概要と次の調査提案
 - 次: `/research-plan`または`/define-requirements`
 
 #### `/research-plan`
@@ -278,7 +278,7 @@ Use the /hcd-workflow skill to plan research for this dashboard.
 
 - 使用時期: ユーザーが求める進歩を解決策から切り離して表現するとき
 - 入力: 証拠、きっかけ、現在行動、望む結果
-- 処理: 機能的・感情的・社会的Jobの整理
+- 処理: 機能的・感情的・社会的なジョブの整理
 - 成果物: 優先度と根拠付きJTBD
 - 次: `/define-requirements`
 
@@ -298,7 +298,7 @@ Use the /hcd-workflow skill to plan research for this dashboard.
 - 入力: 証拠、事業目標、制約、リリース
 - 処理: ID、根拠、優先度、受け入れ条件の付与
 - 成果物: `requirements.md`
-- 次: 各設計Prompt
+- 次: 各設計プロンプト
 
 #### `/design-information-architecture`
 
@@ -376,7 +376,7 @@ Use the /hcd-workflow skill to plan research for this dashboard.
 - 使用時期: リリース前の最終判断
 - 入力: 範囲、要求、環境、期限
 - 処理: テスト、ビルド、設定、移行、監視、ロールバック、UX、A11y、文書
-- 成果物: Ready / Conditionally ready / Not readyの判定
+- 成果物: 準備完了 / 条件付きで準備完了 / 準備未完了の判定
 
 ## 8. 代表的な組み合わせ
 
@@ -408,10 +408,9 @@ Use the /hcd-workflow skill to plan research for this dashboard.
 
 ## 9. 保守ルール
 
-- 同じ指示をAgent、Prompt、Skillへ重複して書かない
-- Agentの権限は必要最小限にする
-- Promptは一つの明確な成果物を中心にする
-- Skillの`description`には、何ができるかだけでなく、いつ使うかを書く
-- ファイル名を変更したら、文書・Prompt・検証スクリプトの参照も更新する
+- 同じ指示をエージェント、プロンプト、スキルへ重複して書かない
+- エージェントの権限は必要最小限にする
+- プロンプトは一つの明確な成果物を中心にする
+- スキルの`description`には、何ができるかだけでなく、いつ使うかを書く
+- ファイル名を変更したら、文書・プロンプト・検証スクリプトの参照も更新する
 - 追加・変更後は検証スクリプトを実行する
-

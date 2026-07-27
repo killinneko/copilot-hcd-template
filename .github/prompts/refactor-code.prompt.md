@@ -1,9 +1,8 @@
 ---
 name: refactor-code
-description: Refactor code while preserving behavior and proving equivalence with tests.
-agent: Implementation
-argument-hint: "target, reason, constraints, and behavior that must remain unchanged"
+description: 動作を維持し、テストで同等性を確認しながらコードをリファクタリングします。
+agent: 実装
+argument-hint: "対象、理由、制約、変更してはいけない動作"
 ---
 
-Inspect the target and identify the concrete maintainability problem. Define invariants and tests that protect behavior, then make the smallest useful refactor. Avoid mixing unrelated feature changes. Run relevant checks and report structural improvements, unchanged behavior, and residual risks.
-
+対象を調査し、具体的な保守上の問題を特定してください。変更してはいけない条件と動作を保護するテストを定義し、有用な最小限のリファクタリングを行います。無関係な機能変更を混在させないでください。関連する検証を実行し、構造上の改善、維持された動作、残存リスクを報告してください。

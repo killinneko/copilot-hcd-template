@@ -1,68 +1,67 @@
-# Research plan
+# 調査計画
 
-## Background and decision
+## 背景と意思決定
 
-- Background:
-- Decision this research will support:
-- Stakeholders:
+- 背景:
+- この調査が支援する意思決定:
+- 関係者:
 
-## Research objectives
+## 調査目的
 
 1.
 
-## Research questions
+## 調査課題
 
-| ID | Question | Decision supported | Evidence needed |
+| 識別子 | 調査課題 | 支援する意思決定 | 必要な証拠 |
 | --- | --- | --- | --- |
-| RQ-01 |  |  |  |
+| 調査課題-01 |  |  |  |
 
-## Method
+## 方法
 
-- Chosen method:
-- Rationale:
-- Limitations:
+- 選定した方法:
+- 選定理由:
+- 限界:
 
-## Participants
+## 参加者
 
-- Target population:
-- Inclusion criteria:
-- Exclusion criteria:
-- Sample size and rationale:
-- Recruitment:
-- Sampling bias:
+- 対象母集団:
+- 参加条件:
+- 除外条件:
+- 参加者数と理由:
+- 募集方法:
+- 標本抽出の偏り:
 
-## Procedure
+## 手順
 
 1.
 
-## Ethics, consent, and privacy
+## 倫理、同意、プライバシー
 
-- Consent:
-- Recording:
-- Personal/sensitive data:
-- Retention and deletion:
-- Access control:
-- Participant risk:
+- 同意:
+- 記録:
+- 個人情報・機微情報:
+- 保持期間と削除:
+- アクセス制御:
+- 参加者へのリスク:
 
-## Analysis
+## 分析
 
-- Cleaning/exclusion rules:
-- Coding or statistical method:
-- Segment comparison:
-- Quality checks:
+- データ整理・除外規則:
+- コーディングまたは統計手法:
+- 区分間の比較:
+- 品質確認:
 
-## Timeline and roles
+## 日程と役割
 
-| Activity | Owner | Due date | Output |
+| 作業 | 担当者 | 期限 | 成果物 |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-## Decision criteria
+## 判断基準
 
-- If we observe:
-- We will decide:
+- 次が観察された場合:
+- 次の判断を行う:
 
-## Risks and open questions
+## リスクと未解決の質問
 
 - 
-

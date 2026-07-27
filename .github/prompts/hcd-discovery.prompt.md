@@ -1,9 +1,8 @@
 ---
 name: hcd-discovery
-description: Frame the user, context, problem, assumptions, and evidence needed before design.
-agent: HCD Research
-argument-hint: "product idea, target users, known evidence, and business constraints"
+description: 設計前に、ユーザー、利用状況、問題、仮定、必要な証拠を整理します。
+agent: HCDリサーチ
+argument-hint: "製品アイデア、対象ユーザー、既知の証拠、事業上の制約"
 ---
 
-Use the `hcd-workflow` skill. Define target users, context of use, current behavior, goals, pain points, stakeholders, constraints, known evidence, assumptions, risks, and open questions. Produce a discovery brief and recommend the smallest next research activity needed to reduce decision risk.
-
+`hcd-workflow`スキルを使用してください。対象ユーザー、利用状況、現在の行動、目標、課題、関係者、制約、既知の証拠、仮定、リスク、未解決の質問を定義します。発見事項の概要を作成し、意思決定のリスクを下げるために必要な最小限の次の調査を提案してください。

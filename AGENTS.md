@@ -1,24 +1,23 @@
-# Shared agent guidance
+# エージェント共通ガイド
 
-These rules apply to AI coding agents working in this repository.
+このリポジトリで作業するAIコーディングエージェントは、次のルールに従ってください。
 
-## Before work
+## 作業前
 
-- Read `README.md`, `.github/copilot-instructions.md`, and `docs/templates/project-context.md`.
-- Inspect relevant code and tests before changing files.
-- Restate the intended outcome, scope, and acceptance criteria.
+- `README.md`、`.github/copilot-instructions.md`、`docs/templates/project-context.md`を確認する。
+- ファイルを変更する前に、関連するコードとテストを調査する。
+- 期待する成果、対象範囲、受け入れ条件を言い直して確認する。
 
-## During work
+## 作業中
 
-- Keep changes focused and preserve unrelated user work.
-- Separate confirmed facts from assumptions.
-- Never fabricate user research, metrics, test output, or compliance claims.
-- Add or update tests for changed behavior.
-- Consider usability and accessibility for user-facing changes.
+- 変更を依頼範囲に限定し、無関係なユーザーの作業を維持する。
+- 確認済みの事実と仮定を分離する。
+- ユーザー調査、指標、テスト結果、準拠状況を捏造しない。
+- 動作を変更した場合は、テストを追加または更新する。
+- ユーザー向けの変更では、ユーザビリティとアクセシビリティを考慮する。
 
-## Completion
+## 完了時
 
-- Run relevant checks.
-- Summarize changed files and verified behavior.
-- Report assumptions, unverified items, and remaining risks.
-
+- 関連する検証を実行する。
+- 変更したファイルと確認済みの動作を要約する。
+- 仮定、未確認事項、残存リスクを報告する。

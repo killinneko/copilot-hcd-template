@@ -2,14 +2,13 @@
 applyTo: "**/*.py"
 ---
 
-# Python instructions
+# Python実装の指示
 
-- Use type hints for public functions and non-obvious data structures.
-- Prefer small, testable functions with explicit inputs and outputs.
-- Raise specific exceptions with actionable messages.
-- Do not use mutable default arguments.
-- Keep I/O, transformation, and presentation logic separate.
-- For pandas code, avoid silent chained assignment and document required columns.
-- For Streamlit, cache only deterministic or resource-heavy work and choose `st.cache_data` or `st.cache_resource` deliberately.
-- Run the project's formatter, linter, type checker, and tests when configured.
-
+- 公開関数と自明でないデータ構造には型ヒントを付ける。
+- 入出力が明確な、小さくテスト可能な関数を優先する。
+- 対処方法が分かるメッセージを付け、具体的な例外を送出する。
+- 変更可能なオブジェクトをデフォルト引数に使用しない。
+- 入出力、データ変換、表示のロジックを分離する。
+- pandasでは意図しない連鎖代入を避け、必要な列を文書化する。
+- Streamlitでは、結果が一定の処理または負荷が高い処理だけをキャッシュし、`st.cache_data`と`st.cache_resource`を意図的に使い分ける。
+- 設定されている場合は、フォーマッター、リンター、型チェック、テストを実行する。
