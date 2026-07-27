@@ -1,58 +1,57 @@
-# Project context
+# プロジェクト情報
 
-## Overview
+## 概要
 
-- Project name: [TODO]
-- Purpose: [TODO]
-- Target users: [TODO]
-- Primary user tasks: [TODO]
-- Current phase: [TODO]
+- プロジェクト名: [要確認]
+- 目的: [要確認]
+- 対象ユーザー: [要確認]
+- 主要なユーザータスク: [要確認]
+- 現在の段階: [要確認]
 
-## Architecture
+## アーキテクチャ
 
-- Languages: [TODO]
-- Frameworks: [TODO]
-- Major components: [TODO]
-- Data sources and stores: [TODO]
-- External services: [TODO]
+- 言語: [要確認]
+- フレームワーク: [要確認]
+- 主要コンポーネント: [要確認]
+- データソースと保存先: [要確認]
+- 外部サービス: [要確認]
 
-## Repository map
+## リポジトリ構成
 
-| Path | Responsibility |
+| パス | 役割 |
 | --- | --- |
-| `[TODO]` | [TODO] |
+| `[要確認]` | [要確認] |
 
-## Commands
+## コマンド
 
-| Purpose | Command | Confirmed |
+| 目的 | コマンド | 確認済み |
 | --- | --- | --- |
-| Setup | `[TODO]` | No |
-| Run | `[TODO]` | No |
-| Test | `[TODO]` | No |
-| Lint | `[TODO]` | No |
-| Type check | `[TODO]` | No |
-| Build | `[TODO]` | No |
+| セットアップ | `[要確認]` | いいえ |
+| 実行 | `[要確認]` | いいえ |
+| テスト | `[要確認]` | いいえ |
+| 静的解析 | `[要確認]` | いいえ |
+| 型チェック | `[要確認]` | いいえ |
+| ビルド | `[要確認]` | いいえ |
 
-## Conventions
+## 規約
 
-- Code style: [TODO]
-- Test conventions: [TODO]
-- Branch/commit conventions: [TODO]
-- Documentation conventions: [TODO]
+- コードスタイル: [要確認]
+- テスト規約: [要確認]
+- ブランチ・コミット規約: [要確認]
+- 文書規約: [要確認]
 
-## Quality targets
+## 品質目標
 
-- Accessibility: WCAG 2.2 AA unless otherwise specified
-- Performance: [TODO]
-- Supported environments: [TODO]
-- Privacy/security requirements: [TODO]
+- アクセシビリティ: 別途指定がない限りWCAG 2.2 AA
+- 性能: [要確認]
+- 対応環境: [要確認]
+- プライバシー・セキュリティ要求: [要確認]
 
-## Constraints and non-goals
+## 制約と対象外
 
-- Constraints: [TODO]
-- Non-goals: [TODO]
+- 制約: [要確認]
+- 対象外: [要確認]
 
-## Open questions
+## 未解決の質問
 
-- [TODO]
-
+- [要確認]

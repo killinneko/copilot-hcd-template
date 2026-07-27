@@ -1,60 +1,59 @@
-# Survey design
+# アンケート設計
 
-## Purpose
+## 目的
 
-- Target respondents:
-- Research decision:
-- Estimated completion time:
+- 対象回答者:
+- 支援する意思決定:
+- 想定回答時間:
 
-## Consent and introduction
+## 同意と導入文
 
-[Insert purpose, voluntary participation, data use, contact, and consent.]
+[目的、参加が任意であること、データの利用方法、問い合わせ先、同意方法を記載します。]
 
-## Question map
+## 質問対応表
 
-| ID | Question | Type/scale | Required | Research objective | Planned analysis |
+| 識別子 | 質問 | 形式・尺度 | 必須 | 調査目的 | 分析計画 |
 | --- | --- | --- | --- | --- | --- |
-| Q01 |  |  |  |  |  |
+| 質問-01 |  |  |  |  |  |
 
-## Questionnaire
+## 調査票
 
-### Screening
-
-1.
-
-### Main questions
+### 対象者の選別
 
 1.
 
-### Demographics or attributes
-
-Include only attributes needed for analysis or safety.
+### 主な質問
 
 1.
 
-## Branching logic
+### 属性
 
-| Condition | Destination |
+分析または安全上必要な属性だけを含めます。
+
+1.
+
+## 分岐条件
+
+| 条件 | 移動先 |
 | --- | --- |
 |  |  |
 
-## Analysis plan
+## 分析計画
 
-- Exclusion criteria:
-- Missing data:
-- Denominators:
-- Recoding:
-- Segment comparison:
-- Open-text coding:
+- 除外条件:
+- 欠損データ:
+- 分母:
+- 再符号化:
+- 区分間の比較:
+- 自由記述のコーディング:
 
-## Pilot checklist
+## 試行調査の確認表
 
-- [ ] Questions map to research objectives
-- [ ] No double-barreled or leading questions
-- [ ] Response options are exhaustive or include an appropriate alternative
-- [ ] Scale direction and labels are consistent
-- [ ] Branching has been tested
-- [ ] Mobile and keyboard completion have been tested
-- [ ] Completion time is acceptable
-- [ ] Consent and privacy language has been reviewed
-
+- [ ] 各質問が調査目的に対応している
+- [ ] 二つ以上の論点を含む質問や誘導的な質問がない
+- [ ] 回答選択肢が網羅的、または適切な「その他」がある
+- [ ] 尺度の方向とラベルに一貫性がある
+- [ ] 分岐条件をテストした
+- [ ] モバイルとキーボードで回答できることを確認した
+- [ ] 回答時間が許容範囲に収まる
+- [ ] 同意とプライバシーに関する文言を確認した

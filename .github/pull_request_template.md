@@ -1,37 +1,36 @@
-## Summary
+## 概要
 
 - 
 
-## User problem and expected outcome
+## ユーザーの課題と期待する成果
 
-- Target user:
-- Problem:
-- Expected outcome:
+- 対象ユーザー:
+- 課題:
+- 期待する成果:
 
-## Changes
+## 変更内容
 
 - 
 
-## Verification
+## 検証
 
-- [ ] Tests added or updated
-- [ ] Relevant tests pass
-- [ ] Lint/type/build checks pass where applicable
-- [ ] Documentation updated
-- [ ] Loading, empty, error, and success states considered
-- [ ] Keyboard and accessibility impact reviewed
+- [ ] テストを追加または更新した
+- [ ] 関連するテストが成功した
+- [ ] 必要な静的解析、型チェック、ビルドが成功した
+- [ ] 文書を更新した
+- [ ] 読み込み中、データなし、エラー、成功の状態を考慮した
+- [ ] キーボード操作とアクセシビリティへの影響を確認した
 
-Commands and results:
+実行したコマンドと結果:
 
 ```text
 
 ```
 
-## Evidence and screenshots
+## 根拠と画面画像
 
 - 
 
-## Risks, assumptions, and follow-up
+## リスク、仮定、今後の対応
 
 - 
-

@@ -1,9 +1,8 @@
 ---
 name: review-code
-description: Perform a read-only review focused on material defects and regressions.
-agent: Code Review
-argument-hint: "files, branch, diff, or feature to review"
+description: 重大な欠陥と回帰を中心に、読み取り専用のレビューを行います。
+agent: コードレビュー
+argument-hint: "レビュー対象のファイル、ブランチ、差分、機能"
 ---
 
-Review the requested scope without editing files. Check correctness, requirements, security, maintainability, tests, documentation, and regression risk. List findings by severity with evidence, impact, and concrete remediation. Separate blocking issues from suggestions and state verification gaps.
-
+ファイルを編集せずに、依頼された範囲をレビューしてください。正確性、要求、セキュリティ、保守性、テスト、文書、回帰リスクを確認します。指摘を重要度順に並べ、根拠、影響、具体的な修正方法を記載してください。作業を妨げる問題と改善提案を分け、未確認の範囲を明示してください。

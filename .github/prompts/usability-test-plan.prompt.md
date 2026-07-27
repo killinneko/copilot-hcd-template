@@ -1,9 +1,8 @@
 ---
 name: usability-test-plan
-description: Create a practical usability test plan with neutral tasks and success measures.
-agent: HCD Research
-argument-hint: "prototype, target users, research questions, timeline, and constraints"
+description: 中立的なタスクと成功指標を備えた、実用的なユーザビリティテスト計画を作成します。
+agent: HCDリサーチ
+argument-hint: "プロトタイプ、対象ユーザー、調査課題、期間、制約"
 ---
 
-Use `docs/templates/usability-test-plan.md`. Define objectives, participant criteria, environment, roles, neutral task scenarios, success criteria, measures, moderator guide, consent, recording, data handling, observation notes, analysis, and reporting. Avoid tasks that reveal the intended solution.
-
+`docs/templates/usability-test-plan.md`を使用してください。目的、参加条件、環境、役割、中立的なタスクシナリオ、成功条件、測定項目、進行手順、同意、記録、データ管理、観察メモ、分析、報告を定義します。想定する解決方法を参加者へ示してしまうタスクを避けてください。

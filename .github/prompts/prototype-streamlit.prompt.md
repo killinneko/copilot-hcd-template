@@ -1,9 +1,8 @@
 ---
 name: prototype-streamlit
-description: Build a small Streamlit data analysis or visualization prototype.
-agent: Data Visualization
-argument-hint: "data source, user question, required interactions, and constraints"
+description: 小規模なStreamlitデータ分析・可視化プロトタイプを作成します。
+agent: データ可視化
+argument-hint: "データソース、ユーザーの問い、必要な操作、制約"
 ---
 
-Create or improve a minimal Streamlit prototype that answers the stated user question. Separate loading, validation, transformation, visualization, and UI. Include useful defaults, filters, loading/empty/error states, units, sources, and accessible text. Add tests for non-UI transformation logic and document how to run the app.
-
+提示されたユーザーの問いに答える、最小限のStreamlitプロトタイプを作成または改善してください。読み込み、検証、変換、可視化、UIを分離します。有用な初期値、絞り込み、読み込み中・データなし・エラーの状態、単位、出典、アクセシブルな文章を用意してください。UI以外の変換ロジックにはテストを追加し、アプリの実行方法を文書化してください。

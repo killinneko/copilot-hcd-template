@@ -1,9 +1,8 @@
 ---
 name: create-persona
-description: Create evidence-backed personas or clearly labeled provisional personas.
-agent: HCD Research
-argument-hint: "research findings, segments, behaviors, goals, and intended design decisions"
+description: 証拠に基づくペルソナ、または暫定であることを明記したペルソナを作成します。
+agent: HCDリサーチ
+argument-hint: "調査結果、区分、行動、目標、支援する設計判断"
 ---
 
-Use `docs/templates/persona.md`. Create the minimum number of personas needed to explain meaningful behavioral differences. Trace each attribute to evidence and omit decorative demographics. Include goals, behaviors, context, needs, barriers, scenarios, implications, confidence, and contradictory evidence. If evidence is insufficient, create a provisional proto-persona and list validation needs.
-
+`docs/templates/persona.md`を使用してください。意味のある行動差を説明するために必要な最小数のペルソナを作成します。各特徴を証拠まで追跡できるようにし、設計判断に不要な属性は省いてください。目標、行動、利用状況、ニーズ、障壁、シナリオ、設計への示唆、確信度、矛盾する証拠を含めます。証拠が不十分な場合は暫定プロトペルソナとし、検証が必要な項目を列挙してください。

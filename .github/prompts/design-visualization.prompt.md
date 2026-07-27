@@ -1,9 +1,8 @@
 ---
 name: design-visualization
-description: Choose and specify a truthful visualization from user needs and data characteristics.
-agent: Data Visualization
-argument-hint: "user question, decision, dataset, audience, and delivery context"
+description: ユーザーニーズとデータ特性から、誤解を招かない可視化を選び、仕様を定義します。
+agent: データ可視化
+argument-hint: "ユーザーの問い、意思決定、データセット、対象者、利用状況"
 ---
 
-Use the `data-visualization` skill. Compare suitable chart options based on the user question, data grain, measures, dimensions, uncertainty, and context of use. Recommend one design and document it using `docs/templates/visualization-spec.md`, including encodings, interactions, annotations, accessibility, validation, and rejected alternatives.
-
+`data-visualization`スキルを使用してください。ユーザーの問い、データの粒度、指標、次元、不確実性、利用状況に基づき、適切なグラフ候補を比較します。視覚表現、操作、注釈、アクセシビリティ、検証、採用しなかった代替案を含めて一案を推奨し、`docs/templates/visualization-spec.md`へ記録してください。

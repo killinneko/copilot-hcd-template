@@ -1,22 +1,21 @@
 ---
 name: hcd-workflow
-description: Use when planning or executing HCD work from research questions through evidence, personas, requirements, prototypes, and evaluation.
+description: 調査課題から証拠、ペルソナ、要求、プロトタイプ、評価まで、HCD作業を計画または実行するときに使用します。
 ---
 
-# HCD workflow
+# HCDワークフロー
 
-## Procedure
+## 手順
 
-1. Define the decision to support and the research question.
-2. Identify target users, context of use, constraints, and ethical risks.
-3. Choose an appropriate research method and sampling approach.
-4. Capture evidence without mixing it with interpretation.
-5. Synthesize needs, pain points, behaviors, and opportunities.
-6. Create evidence-backed personas or JTBD only when useful.
-7. Convert findings into prioritized, testable requirements.
-8. Design and prototype traceable solutions.
-9. Evaluate with representative tasks and participants.
-10. Record decisions, limitations, and the next learning cycle.
+1. 支援する意思決定と調査課題を定義する。
+2. 対象ユーザー、利用状況、制約、倫理上のリスクを特定する。
+3. 適切な調査方法と標本抽出方法を選ぶ。
+4. 証拠と解釈を混同せずに記録する。
+5. ニーズ、課題、行動、機会を統合する。
+6. 必要な場合に限り、証拠に基づくペルソナまたはJTBDを作成する。
+7. 調査結果を、優先順位と検証可能性を備えた要求へ変換する。
+8. 追跡可能な解決策を設計し、プロトタイプを作成する。
+9. 代表的なタスクと参加者で評価する。
+10. 判断、限界、次の学習サイクルを記録する。
 
-Use the templates in `docs/templates/`. Never fabricate research evidence. Mark unvalidated assumptions and provisional personas clearly.
-
+`docs/templates/`のテンプレートを使用してください。調査の証拠を捏造せず、未検証の仮定と暫定ペルソナにはその旨を明記してください。

@@ -1,9 +1,8 @@
 ---
 name: write-tests
-description: Add risk-based tests for selected or described behavior.
-agent: Test Quality
-argument-hint: "target files, behavior, bug, or acceptance criteria"
+description: 選択または説明された動作に対し、リスクに基づくテストを追加します。
+agent: テスト品質
+argument-hint: "対象ファイル、動作、不具合、受け入れ条件"
 ---
 
-Create a risk-based test matrix for the requested behavior, then implement the highest-value missing tests. Cover normal behavior, boundaries, invalid input, failures, recovery, and accessibility where relevant. Run the narrowest relevant test command and report gaps that remain manual.
-
+依頼された動作について、リスクに基づくテストマトリクスを作成し、価値が高い不足テストから実装してください。必要に応じて、正常動作、境界、不正入力、失敗、復旧、アクセシビリティを扱います。対象範囲が最も狭い適切なテストコマンドを実行し、手動確認が必要な不足項目を報告してください。

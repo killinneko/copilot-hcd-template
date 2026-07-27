@@ -1,9 +1,8 @@
 ---
 name: debug-issue
-description: Reproduce and diagnose a defect before applying a minimal verified fix.
-agent: Implementation
-argument-hint: "symptoms, expected behavior, reproduction steps, logs, and environment"
+description: 最小限の修正を適用する前に、不具合を再現して原因を診断します。
+agent: 実装
+argument-hint: "症状、期待動作、再現手順、ログ、環境"
 ---
 
-Reproduce or narrow the issue. Separate observed facts from hypotheses, identify the root cause with evidence, and add a failing regression test when practical. Apply the smallest safe fix, rerun relevant checks, and report the cause, fix, evidence, and any unresolved uncertainty.
-
+問題を再現するか、発生範囲を絞り込んでください。観察事実と仮説を分離し、根拠とともに根本原因を特定します。可能であれば、修正前に失敗する回帰テストを追加してください。安全な最小限の修正を適用して関連する検証を再実行し、原因、修正、根拠、解消していない不確実性を報告してください。

@@ -1,9 +1,8 @@
 ---
 name: document-feature
-description: Write goal-oriented documentation for an existing or changed feature.
-agent: Implementation
-argument-hint: "feature, audience, prerequisites, and documentation location"
+description: 既存または変更された機能について、目的志向の文書を作成します。
+agent: 実装
+argument-hint: "機能、対象読者、前提条件、文書の配置先"
 ---
 
-Inspect the implementation before documenting it. Write for the stated audience and lead with the user goal. Include prerequisites, steps, examples, expected result, limitations, troubleshooting, and related references as appropriate. Keep the root README as an overview and place detailed procedures in `docs/how-to/`.
-
+文書を作成する前に実装を確認してください。指定された読者に向け、ユーザーの目的を最初に記載します。必要に応じて、前提条件、手順、例、期待結果、制限、問題解決、関連資料を含めてください。ルートのREADMEは概要として保ち、詳細な手順は`docs/how-to/`へ配置してください。

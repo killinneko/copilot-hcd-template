@@ -2,11 +2,10 @@
 applyTo: "**/*.{md,mdx}"
 ---
 
-# Documentation instructions
+# 文書作成の指示
 
-- Lead with the reader's goal, then prerequisites and steps.
-- Use relative links for repository files.
-- Keep commands copyable and identify their shell when relevant.
-- Distinguish confirmed behavior from examples and assumptions.
-- Keep the root README concise; move detailed procedures and specifications into `docs/`.
-
+- 読者の目的を最初に示し、その後に前提条件と手順を記載する。
+- リポジトリ内のファイルには相対リンクを使用する。
+- コマンドはコピーできる形で記載し、必要に応じて使用するシェルを明示する。
+- 確認済みの動作と、例示・仮定を区別する。
+- ルートのREADMEは簡潔に保ち、詳細な手順と仕様は`docs/`へ配置する。

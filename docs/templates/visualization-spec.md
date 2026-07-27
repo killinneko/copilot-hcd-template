@@ -1,72 +1,71 @@
-# Visualization specification
+# 可視化仕様
 
-## User and decision
+## ユーザーと意思決定
 
-- Target user:
-- Context:
-- Question:
-- Decision/action supported:
-- Time available:
+- 対象ユーザー:
+- 利用状況:
+- 問い:
+- 支援する意思決定・行動:
+- 利用可能な時間:
 
-## Data
+## データ
 
-- Source:
-- Grain:
-- Measures:
-- Dimensions:
-- Time coverage:
-- Missingness/quality:
-- Sensitive data:
+- 出典:
+- 粒度:
+- 指標:
+- 次元:
+- 対象期間:
+- 欠損・品質:
+- 機微情報:
 
-## Recommended visualization
+## 推奨する可視化
 
-- Chart or representation:
-- Selection rationale:
-- Primary message:
+- グラフまたは表現方法:
+- 選定理由:
+- 主なメッセージ:
 
-## Encoding
+## 視覚表現
 
-| Data field | Visual channel | Aggregation/format | Rationale |
+| データ項目 | 視覚的な変数 | 集計・書式 | 理由 |
 | --- | --- | --- | --- |
 |  |  |  |  |
 
-## Interactions and states
+## 操作と状態
 
-- Default view:
-- Filters:
-- Selection:
-- Drill-down:
-- Loading:
-- Empty:
-- Error:
-- Partial data:
+- 初期表示:
+- 絞り込み:
+- 選択:
+- 詳細表示:
+- 読み込み中:
+- データなし:
+- エラー:
+- 一部データのみ:
 
-## Labels and annotations
+## ラベルと注釈
 
-- Title:
-- Units:
-- Definitions:
-- Source:
-- Uncertainty:
+- タイトル:
+- 単位:
+- 定義:
+- 出典:
+- 不確実性:
 
-## Accessibility
+## アクセシビリティ
 
-- Color and non-color cues:
-- Text/table alternative:
-- Keyboard interaction:
-- Accessible names/descriptions:
-- Contrast and focus:
+- 色と色以外の手掛かり:
+- 文章・表による代替:
+- キーボード操作:
+- アクセシブルな名前・説明:
+- コントラストとフォーカス:
 
-## Alternatives considered
+## 検討した代替案
 
-| Alternative | Benefit | Reason not selected |
+| 代替案 | 利点 | 採用しなかった理由 |
 | --- | --- | --- |
 |  |  |  |
 
-## Validation
+## 検証
 
-- Known-value checks:
-- User tasks:
-- Success criteria:
-- Risks/misinterpretations:
-
+- 既知の値による確認:
+- ユーザータスク:
+- 成功条件:
+- リスク・誤読:

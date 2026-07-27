@@ -1,16 +1,15 @@
 ---
 name: implement-change
-description: Implement a focused feature or behavior change with tests and documentation.
-agent: Implementation
-argument-hint: "desired outcome, scope, constraints, and acceptance criteria"
+description: 対象を限定した機能・動作の変更を、テストと文書を含めて実装します。
+agent: 実装
+argument-hint: "期待する成果、対象範囲、制約、受け入れ条件"
 ---
 
-Implement the requested change.
+依頼された変更を実装してください。
 
-1. Inspect the relevant code, tests, and `docs/templates/project-context.md`.
-2. Restate scope and acceptance criteria.
-3. Implement the smallest coherent change.
-4. Add or update tests and documentation.
-5. Run relevant checks.
-6. Summarize changed files, results, assumptions, and remaining risks.
-
+1. 関連するコード、テスト、`docs/templates/project-context.md`を確認する。
+2. 対象範囲と受け入れ条件を言い直して確認する。
+3. 一貫性を保てる最小限の変更を実装する。
+4. テストと文書を追加または更新する。
+5. 関連する検証を実行する。
+6. 変更ファイル、結果、仮定、残存リスクを要約する。

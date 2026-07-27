@@ -1,31 +1,30 @@
-# Requirements
+# 要求定義
 
-## Scope
+## 対象範囲
 
-- Product/feature:
-- Target users:
-- Release:
-- Source research:
+- 製品・機能:
+- 対象ユーザー:
+- 対象リリース:
+- 根拠となる調査:
 
-## Requirements
+## 要求
 
-| ID | Type | Requirement | Rationale/evidence | Priority | Acceptance criteria | Owner | Status |
+| 識別子 | 種別 | 要求 | 理由・証拠 | 優先度 | 受け入れ条件 | 担当者 | 状態 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| UR-001 | User |  |  | Must |  |  | Draft |
+| ユーザー要求-001 | ユーザー |  |  | 必須 |  |  | 草案 |
 
-Types may include User, Functional, Data, Content, Accessibility, Performance, Privacy, Security, and Operational.
+種別には、ユーザー、機能、データ、コンテンツ、アクセシビリティ、性能、プライバシー、セキュリティ、運用などを使用します。
 
-## Conflicts and trade-offs
+## 競合とトレードオフ
 
-| Requirements | Conflict | Decision/owner |
+| 要求 | 競合内容 | 判断・担当者 |
 | --- | --- | --- |
 |  |  |  |
 
-## Assumptions
+## 仮定
 
 - 
 
-## Out of scope
+## 対象外
 
 - 
-

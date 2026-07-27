@@ -1,27 +1,26 @@
-# User journey
+# ユーザージャーニー
 
-- Journey type: Current state / Future state
-- User or persona:
-- Scenario:
-- Start:
-- End:
-- Evidence status:
+- 種別: 現状 / 将来像
+- ユーザーまたはペルソナ:
+- シナリオ:
+- 開始:
+- 終了:
+- 証拠の状態:
 
-| Stage | User goal | Actions | Touchpoints | Thoughts/emotions | Pain points | Evidence | Opportunities |
+| 段階 | ユーザー目標 | 行動 | 接点 | 考え・感情 | 課題 | 証拠 | 改善機会 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 |  |  |  |  |  |  |  |  |
 
-## Moments that matter
+## 重要な場面
 
 - 
 
-## Assumptions to validate
+## 検証する仮定
 
 - 
 
-## Prioritized opportunities
+## 優先順位を付けた改善機会
 
-| Opportunity | User value | Evidence | Effort/risk | Priority |
+| 改善機会 | ユーザー価値 | 証拠 | 工数・リスク | 優先度 |
 | --- | --- | --- | --- | --- |
 |  |  |  |  |  |
-

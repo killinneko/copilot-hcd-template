@@ -1,9 +1,8 @@
 ---
 name: design-information-architecture
-description: Design navigation, content grouping, labels, and hierarchy around user tasks.
-agent: UX Design
-argument-hint: "content inventory, primary tasks, users, and platform constraints"
+description: ユーザーのタスクを中心に、ナビゲーション、情報分類、ラベル、階層を設計します。
+agent: UX設計
+argument-hint: "コンテンツ一覧、主要タスク、ユーザー、基盤上の制約"
 ---
 
-Analyze user tasks and content. Propose a hierarchy, navigation model, labels, cross-links, and search/filter behavior. Explain grouping rationale and ambiguous items. Include a compact sitemap and a validation plan such as card sorting or tree testing when appropriate.
-
+ユーザーのタスクとコンテンツを分析してください。階層、ナビゲーションモデル、ラベル、相互リンク、検索・絞り込みの動作を提案します。分類理由と曖昧な項目を説明してください。簡潔なサイトマップを含め、必要に応じてカードソートやツリーテストなどの検証計画を示してください。

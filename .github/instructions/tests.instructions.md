@@ -2,12 +2,11 @@
 applyTo: "**/{test,tests,__tests__}/**/*,**/*.{test,spec}.{py,ts,tsx,js,jsx}"
 ---
 
-# Test instructions
+# テスト作成の指示
 
-- Test externally observable behavior rather than implementation details.
-- Include normal, boundary, invalid-input, and failure cases where relevant.
-- Keep tests deterministic and independent.
-- Name tests so the expected behavior and condition are clear.
-- Mock only external boundaries; avoid mocking the unit under test.
-- For accessibility-sensitive UI, include keyboard and accessible-name checks.
-
+- 実装詳細ではなく、外部から観察できる動作をテストする。
+- 必要に応じて、正常、境界、不正入力、失敗のケースを含める。
+- テストの結果を再現可能にし、相互に独立させる。
+- 条件と期待動作が分かるテスト名を付ける。
+- 外部境界だけをモック化し、テスト対象そのものはモック化しない。
+- アクセシビリティに関係するUIでは、キーボード操作とアクセシブルな名前を確認する。

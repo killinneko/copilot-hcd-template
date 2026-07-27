@@ -1,9 +1,8 @@
 ---
 name: design-survey
-description: Design a survey aligned to research questions and analysis needs.
-agent: HCD Research
-argument-hint: "research questions, target respondents, decisions, and constraints"
+description: 調査課題と分析要件に対応したアンケートを設計します。
+agent: HCDリサーチ
+argument-hint: "調査課題、対象回答者、意思決定、制約"
 ---
 
-Draft the survey using `docs/templates/survey.md`. Map every question to a research objective and planned analysis. Avoid double-barreled, leading, loaded, ambiguous, and unnecessary questions. Define response scales consistently, include screening and consent where appropriate, and provide a pilot-test checklist.
-
+`docs/templates/survey.md`を使用してアンケート案を作成してください。すべての質問を調査目的と分析計画に対応付けます。二つ以上の論点を含む質問、誘導的・感情的・曖昧・不要な質問を避けてください。回答尺度に一貫性を持たせ、必要に応じて対象者の選別と同意を含め、試行調査の確認表を用意してください。

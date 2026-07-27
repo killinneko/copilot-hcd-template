@@ -1,9 +1,8 @@
 ---
 name: define-jtbd
-description: Derive Jobs to Be Done statements and desired outcomes from research evidence.
-agent: HCD Research
-argument-hint: "evidence, current behavior, trigger, desired progress, and constraints"
+description: 調査の証拠からJTBDと望ましい成果を導きます。
+agent: HCDリサーチ
+argument-hint: "証拠、現在の行動、きっかけ、望む進歩、制約"
 ---
 
-Derive functional, emotional, and social jobs from supplied evidence. For each job, document the trigger, situation, desired progress, current workaround, barriers, success signals, and evidence. Produce concise job statements and prioritize them by user importance, unmet need, and confidence.
-
+提示された証拠から、機能的、感情的、社会的なジョブを導いてください。各ジョブについて、きっかけ、状況、望む進歩、現在の代替手段、障壁、成功の兆候、証拠を記録します。簡潔なジョブ記述を作成し、ユーザーにとっての重要度、満たされていない度合い、確信度で優先順位を付けてください。

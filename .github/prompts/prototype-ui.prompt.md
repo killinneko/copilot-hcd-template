@@ -1,9 +1,8 @@
 ---
 name: prototype-ui
-description: Design or implement a testable UI prototype covering complete interaction states.
-agent: UX Design
-argument-hint: "target task, requirements, fidelity, framework, and constraints"
+description: 一連の操作状態を扱う、評価可能なUIプロトタイプを設計または実装します。
+agent: UX設計
+argument-hint: "対象タスク、要求、忠実度、フレームワーク、制約"
 ---
 
-Create a prototype for the specified task. Define the task flow before screens or components. Cover entry, primary path, alternatives, cancellation, recovery, completion, and loading/empty/error/disabled/success states. Use accessible semantics and realistic content. State what the prototype is intended to test and what is intentionally out of scope.
-
+指定されたタスクのプロトタイプを作成してください。画面やコンポーネントより先にタスクフローを定義します。開始、主要経路、代替経路、取消、復旧、完了、読み込み中、データなし、エラー、無効、成功の状態を扱ってください。アクセシブルな意味構造と現実的な内容を使用します。プロトタイプで評価する内容と、意図的に対象外とする範囲を明記してください。

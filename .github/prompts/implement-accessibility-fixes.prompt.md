@@ -1,9 +1,8 @@
 ---
 name: implement-accessibility-fixes
-description: Implement confirmed accessibility remediations with regression tests.
-agent: Implementation
-argument-hint: "review findings or specific accessibility issue to fix"
+description: 確認済みのアクセシビリティ改善を、回帰テストとともに実装します。
+agent: 実装
+argument-hint: "レビュー指摘または修正するアクセシビリティ問題"
 ---
 
-Implement the confirmed accessibility fixes in priority order. Preserve existing behavior unless it is the barrier. Prefer semantic HTML, add ARIA only where necessary, and include keyboard, accessible-name, state, and error tests where supported. Report which findings were fixed and which still require manual verification.
-
+確認済みのアクセシビリティ修正を優先順位に従って実装してください。既存動作自体が障壁でない限り、その動作を維持します。セマンティックHTMLを優先し、ARIAは必要な場合だけ追加してください。対応可能な範囲で、キーボード、アクセシブルな名前、状態、エラーのテストを含めます。修正した指摘と、引き続き手動確認が必要な指摘を報告してください。

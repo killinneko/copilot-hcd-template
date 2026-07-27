@@ -1,40 +1,39 @@
-# Repository instructions
+# リポジトリ共通指示
 
-## Source of truth
+## 正式な情報源
 
-- Before changing code, read `README.md` and `docs/templates/project-context.md`.
-- Treat existing code, tests, configuration, and documented decisions as the source of truth.
-- If required context is missing, state assumptions explicitly and choose the smallest reversible change.
+- コードを変更する前に、`README.md`と`docs/templates/project-context.md`を確認する。
+- 既存のコード、テスト、設定、文書化された判断を正式な情報源として扱う。
+- 必要な情報が不足している場合は、仮定を明示し、元に戻しやすい最小限の変更を選ぶ。
 
-## Working style
+## 作業方針
 
-- Start by restating the intended outcome and acceptance criteria.
-- Inspect relevant files before proposing or implementing changes.
-- Keep changes focused; do not modify unrelated files.
-- Preserve existing public APIs and user-visible behavior unless the task explicitly changes them.
-- Prefer simple, maintainable solutions over premature abstraction.
-- Never invent research findings, user quotes, metrics, test results, or accessibility compliance.
+- 最初に、期待する成果と受け入れ条件を言い直して確認する。
+- 提案や実装の前に関連ファイルを調査する。
+- 変更を依頼範囲に限定し、無関係なファイルを変更しない。
+- 明示的な変更依頼がない限り、公開APIとユーザーから見える既存動作を維持する。
+- 早すぎる抽象化を避け、単純で保守しやすい解決策を優先する。
+- 調査結果、ユーザーの発言、指標、テスト結果、アクセシビリティ準拠状況を捏造しない。
 
-## HCD and UX
+## HCD・UX
 
-- Identify the target user, goal, context of use, and primary task before making significant UI decisions.
-- Separate observed facts, evidence-based interpretations, assumptions, and design decisions.
-- Use personas only when they are grounded in research data; label provisional personas clearly.
-- Choose visualizations from the user question and data characteristics, not aesthetics alone.
-- Provide loading, empty, error, and success states for interactive interfaces.
-- Use WCAG 2.2 AA as the accessibility target unless the project specifies another standard.
+- 重要なUI判断を行う前に、対象ユーザー、目標、利用状況、主要タスクを特定する。
+- 観察事実、証拠に基づく解釈、仮定、設計判断を分離する。
+- ペルソナは調査データに基づく場合のみ使用し、暫定ペルソナにはその旨を明記する。
+- 見た目だけでなく、ユーザーの問いとデータ特性から可視化方法を選ぶ。
+- 対話型UIには、読み込み中、データなし、エラー、成功の状態を用意する。
+- プロジェクトで別の基準を指定しない限り、WCAG 2.2 AAをアクセシビリティ目標とする。
 
-## Engineering
+## エンジニアリング
 
-- Follow the repository's existing language, framework, formatting, and testing conventions.
-- Validate inputs at system boundaries and avoid exposing secrets or personal data.
-- Add or update tests for changed behavior.
-- Run the narrowest relevant checks first, then broader checks where practical.
-- Report commands run, results, remaining risks, and anything not verified.
+- リポジトリで既に採用されている言語、フレームワーク、書式、テスト規約に従う。
+- システム境界で入力を検証し、秘密情報や個人情報を公開しない。
+- 変更した動作に対するテストを追加または更新する。
+- 関連範囲が狭い検証から実行し、可能であれば広範囲の検証へ進む。
+- 実行したコマンド、結果、残存リスク、未確認事項を報告する。
 
-## Documentation
+## 文書
 
-- Update documentation when setup, behavior, interfaces, or user workflows change.
-- Keep the root `README.md` as the overview and navigation entry point.
-- Put procedural guides in `docs/how-to/`, reference material in `docs/reference/`, and reusable forms in `docs/templates/`.
-
+- セットアップ、動作、インターフェース、ユーザーフローを変更した場合は文書も更新する。
+- ルートの`README.md`は全体概要と文書の入口として維持する。
+- 手順書は`docs/how-to/`、仕様資料は`docs/reference/`、再利用する様式は`docs/templates/`へ配置する。

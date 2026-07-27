@@ -2,14 +2,13 @@
 applyTo: "**/*.{ts,tsx,js,jsx,css,scss}"
 ---
 
-# Frontend instructions
+# フロントエンド実装の指示
 
-- Prefer semantic HTML before ARIA.
-- Ensure all interactive elements are keyboard operable and have visible focus.
-- Associate labels, descriptions, errors, and controls programmatically.
-- Do not use color alone to communicate meaning.
-- Support loading, empty, error, disabled, and success states.
-- Keep components focused and colocate tests with established repository conventions.
-- Avoid unnecessary client state and effects.
-- Respect reduced-motion preferences for non-essential animation.
-
+- ARIAを追加する前に、適切なセマンティックHTMLを使用する。
+- すべての操作要素をキーボードで操作可能にし、フォーカスを視認できるようにする。
+- ラベル、説明、エラー、入力コントロールをプログラム上で関連付ける。
+- 色だけで意味を伝えない。
+- 読み込み中、データなし、エラー、無効、成功の状態に対応する。
+- コンポーネントの責務を限定し、既存のリポジトリ規約に従ってテストを配置する。
+- 不要なクライアント状態や副作用を避ける。
+- 必須でないアニメーションでは、動きを抑える利用者設定を尊重する。

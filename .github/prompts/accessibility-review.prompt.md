@@ -1,9 +1,8 @@
 ---
 name: accessibility-review
-description: Perform a read-only WCAG 2.2 AA-oriented accessibility review.
-agent: Accessibility
-argument-hint: "page, flow, component, or files to review"
+description: WCAG 2.2 AAを基準に、読み取り専用のアクセシビリティレビューを行います。
+agent: アクセシビリティ
+argument-hint: "レビュー対象のページ、フロー、コンポーネント、ファイル"
 ---
 
-Use the `accessible-ui` skill. Review the requested scope without editing it. Report issues with severity, affected users, evidence, relevant WCAG criterion when confident, remediation, and verification. Separate source-review findings from checks that require a browser, assistive technology, or human judgment.
-
+`accessible-ui`スキルを使用してください。対象を編集せずに、依頼された範囲をレビューします。問題ごとに重要度、影響を受けるユーザー、根拠、確信を持って判断できる場合は関連するWCAG達成基準、修正方法、確認方法を報告してください。ソースコード確認による指摘と、ブラウザ、支援技術、人による判断が必要な確認を分けてください。

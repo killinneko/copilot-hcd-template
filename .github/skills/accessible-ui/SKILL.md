@@ -1,20 +1,19 @@
 ---
 name: accessible-ui
-description: Use when designing, implementing, or reviewing interfaces for keyboard, screen-reader, low-vision, cognitive, and motor accessibility.
+description: キーボード、スクリーンリーダー、ロービジョン、認知、運動に関するアクセシビリティを考慮して、UIを設計・実装・レビューするときに使用します。
 ---
 
-# Accessible UI
+# アクセシブルなUI
 
-## Procedure
+## 手順
 
-1. Use native semantic elements before ARIA.
-2. Ensure keyboard access, logical order, visible focus, and no keyboard trap.
-3. Provide accessible names, labels, instructions, status messages, and error associations.
-4. Do not rely on color, position, shape, or motion alone.
-5. Support zoom, reflow, text spacing, reduced motion, and sufficient target size.
-6. Test loading, empty, error, disabled, and success states.
-7. Combine automated checks with keyboard, zoom, contrast, and screen-reader testing.
-8. Record issues with evidence, impact, remediation, and verification.
+1. ARIAを追加する前に、適切な標準のセマンティック要素を使用する。
+2. キーボード操作、論理的な順序、視認できるフォーカスを確保し、キーボードトラップを作らない。
+3. アクセシブルな名前、ラベル、説明、状態メッセージ、エラーとの関連付けを用意する。
+4. 色、位置、形、動きだけに依存しない。
+5. 拡大、リフロー、文字間隔、動きの抑制、十分なターゲットサイズに対応する。
+6. 読み込み中、データなし、エラー、無効、成功の状態をテストする。
+7. 自動検査に加え、キーボード、拡大、コントラスト、スクリーンリーダーによるテストを行う。
+8. 問題、根拠、影響、修正方法、確認方法を記録する。
 
-Target WCAG 2.2 AA unless the project defines another standard. Never claim complete compliance from automated testing alone.
-
+プロジェクトで別の基準を定めていない限り、WCAG 2.2 AAを目標とします。自動テストだけを根拠に、完全に準拠していると断定しないでください。

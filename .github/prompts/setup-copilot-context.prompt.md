@@ -1,11 +1,10 @@
 ---
 name: setup-copilot-context
-description: Inspect the repository and complete the project context template for future Copilot tasks.
-agent: Implementation
-argument-hint: "project purpose, known constraints, and commands if available"
+description: リポジトリを調査し、今後のCopilot作業で使用するプロジェクト情報テンプレートを完成させます。
+agent: 実装
+argument-hint: "プロジェクトの目的、既知の制約、分かっているコマンド"
 ---
 
-Inspect the repository without changing application behavior. Update `docs/templates/project-context.md` with confirmed information about purpose, users, architecture, directory structure, setup, run, test, lint, build, deployment, conventions, and constraints.
+アプリケーションの動作を変更せずにリポジトリを調査してください。目的、ユーザー、アーキテクチャ、ディレクトリ構成、セットアップ、実行、テスト、静的解析、ビルド、デプロイ、規約、制約について確認できた情報を`docs/templates/project-context.md`へ反映します。
 
-Mark unknown items as `[TODO]`; do not guess. Report the evidence used and the remaining questions.
-
+不明な項目は推測せず、`[要確認]`と記載してください。使用した根拠と残っている質問を報告してください。
